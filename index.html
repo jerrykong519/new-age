@@ -8,9 +8,8 @@
     <meta name="author" content="" />
     <title>Windsor Full Gospel Mission Church</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" <script
-        src="dist/js/jquery-3.6.4.min.js">
-    </script>
+    <link rel="stylesheet" href="/dist/css/styles.css">
+    <script src="dist/js/jquery-3.6.4.min.js"> </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -30,31 +29,57 @@
             object-fit: cover;
             width: 100%;
         }
+
+        p {
+            font-size: 32px;
+        }
+
+        html {
+            font-size: 32px;
+        }
+
+        h1,
+        h2,
+        h3, .title-font-family {
+            font-family: 'Josefin Sans', sans-serif;
+        }
     </style>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link href="/dist/css/fontawesome.min.css" rel="stylesheet">
+    <link href="/dist/css/brands.min.css" rel="stylesheet">
+    <link href="/dist/css/solid.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm" style="background-color: #000;" id="mainNav">
         <div class="container px-5">
-            <img src="dist/assets/img/christ.jpg?v2" alt="">
-            <h1 class="navbar-brand fw-bold">
+            <img src="dist/assets/img/christ.jpg?v2" style="max-height: 100px;" alt="">
+            <h1 class="navbar-brand fw-bold" style="letter-spacing: 5px;">
                 <span data-eng>
-                    WFGMC
+                    WFGMC <br>
                 </span>
                 <span data-cn>
                     温莎纯福音教会
                 </span>
+
             </h1>
             <div class="text-right d-flex align-items-center text-white">
-                <a class='btn btn-outline-primary' data-eng onclick="$('[data-cn], [data-eng]').toggle(); ">中文</a>
-                <a class='btn btn-outline-primary' data-cn onclick="$('[data-cn], [data-eng]').toggle(); ">English</a>
+                <a class='btn btn-outline-primary' onclick="$('[data-cn], [data-eng]').toggle(); ">
+                    <i class="fa-solid fa-language"></i>
+                    <span data-eng>中文</span>
+                    <span data-cn>English</span>
+                </a>
             </div>
         </div>
     </nav>
     <header class="masthead">
         <div id="slick-imgs">
+            <img class="img-responsive-16-9" src="dist/assets/img/s2.jpg" alt="">
+            <img class="img-responsive-16-9" src="dist/assets/img/s3.jpg" alt="">
             <img class="img-responsive-16-9" src="dist/assets/img/s4.jpg" alt="">
             <img class="img-responsive-16-9" src="dist/assets/img/s5.jpg" alt="">
             <img class="img-responsive-16-9" src="dist/assets/img/s15.jpg" alt="">
@@ -95,7 +120,6 @@
                         <div class="text-center">
                             <img class="" src="dist/assets/img/us.jpg">
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -103,7 +127,7 @@
             <div>
                 <div>
                     <div class="">
-                        <h2 class="display-1 lh-1 mb-3">
+                        <h2 class="mb-3">
                             <span data-eng>
                                 Pastor's Greeting
                             </span>
@@ -154,7 +178,7 @@
             <div>
                 <div>
                     <div class="">
-                        <h2 class="display-2 mb-3">
+                        <h2 class="mb-3">
                             <span data-eng>
                                 History
                             </span>
@@ -207,7 +231,7 @@
             <div>
                 <div>
                     <div class="">
-                        <h2 class="display-2 mb-3">
+                        <h2 class="mb-3">
                             <span data-eng>
                                 About
                             </span>
