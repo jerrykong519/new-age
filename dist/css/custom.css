@@ -1,0 +1,25 @@
+
+[data-cn] {
+    display: none
+}
+
+.img-responsive-16-9 {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+}
+
+p {
+    font-size: 1rem;
+}
+
+html {
+    font-size: calc(10px + 0.7vw);
+}
+
+h1,
+h2,
+h3,
+.title-font-family {
+    font-family: 'Josefin Sans', sans-serif;
+}
