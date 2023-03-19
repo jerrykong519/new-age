@@ -24,6 +24,14 @@ h3,
     color: teal;
 }
 
+h2 {
+    margin-top: 3rem;
+}
+h3 {
+    margin-top: 3rem;
+    color: #468d99
+}
+
 img {
     max-width: 100%;
 }

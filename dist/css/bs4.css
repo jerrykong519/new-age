@@ -386,7 +386,7 @@ h6 {
 
 .h1,
 h1 {
-  font-size: 1.75rem
+  font-size: 1.55rem
 }
 
 .h2,
@@ -396,7 +396,7 @@ h2 {
 
 .h3,
 h3 {
-  font-size: 1.75rem
+  font-size: 1.2rem
 }
 
 .h4,
@@ -2908,16 +2908,16 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc
+  background-color: #a0b329;
+  border-color: #a0b329
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-  box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+  background-color: #a0b329;
+  border-color: #a0b329;
+  box-shadow: 0 0 0 .2rem rgba(157, 219, 157, 0.5)
 }
 
 .btn-primary.disabled,
@@ -2931,14 +2931,14 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf
+  background-color: #a0b329;
+  border-color: #a0b329
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
+  box-shadow: 0 0 0 .2rem rgba(144, 167, 114, 0.5)
 }
 
 .btn-secondary {
@@ -4697,7 +4697,7 @@ input[type=submit].btn-block {
 
 .nav-link {
   display: block;
-  padding: .5rem 1rem
+  padding: 1rem 1rem
 }
 
 .nav-link:focus,
@@ -5722,7 +5722,7 @@ a.badge:hover {
 a.badge-primary:focus,
 a.badge-primary:hover {
   color: #fff;
-  background-color: #0062cc
+  background-color: #a0b329
 }
 
 a.badge-primary.focus,
@@ -7405,7 +7405,7 @@ a.bg-primary:focus,
 a.bg-primary:hover,
 button.bg-primary:focus,
 button.bg-primary:hover {
-  background-color: #0062cc !important
+  background-color: #a0b329 !important
 }
 
 .bg-secondary {
