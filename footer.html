@@ -1,6 +1,15 @@
-<hr class="my-5">
-<div class="pb-3">
-    <div class="d-flex justify-content-end container flex-wrap"  style="gap: 25px">
+<div class="pb-5 container">
+    <hr class="my-5 border-secondary">
+    <div class="px-5">
+        28 And we know that all things work together for good to them that love God, to them who are the called
+        according to his purpose.
+        <br>
+        <strong>
+            Romans 8:28
+        </strong>
+    </div>
+    <hr class="mt-5 mb-5 border-secondary">
+    <div class="d-flex justify-content-end flex-wrap" style="gap: 25px">
         <div class="text-nowrap">
             <i class="fa-solid fa-map-location text-primary"></i>
             3919 Howard Ave, Windsor, ON N9G 1N9
@@ -13,3 +22,38 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    $(document).ready(function () {
+        let hash = window.location.hash;
+        if (hash !== "") {
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () { });
+        }
+
+
+        $("header a").on('click', function (event) {
+            // Store hash
+            let hash = this.hash;
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (hash !== "" && $(hash).offset().top) {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+
+    });
+</script>

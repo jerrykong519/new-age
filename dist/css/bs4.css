@@ -11316,6 +11316,10 @@ button.bg-dark:hover {
   color: #a0b329 !important
 }
 
+.border-primary {
+  border-color: #a0b329 !important
+}
+
 a.text-primary:focus,
 a.text-primary:hover {
   color: teal !important
@@ -11323,6 +11327,10 @@ a.text-primary:hover {
 
 .text-secondary {
   color: teal !important
+}
+
+.border--secondary {
+  border-color: teal !important
 }
 
 a.text-secondary:focus,
