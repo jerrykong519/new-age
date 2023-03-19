@@ -1,22 +1,23 @@
-<div class="position-sticky" style="top: 0; z-index: 5;">
-    <nav class="container navbar navbar-expand-lg text-center" id="mainNav">
-        <div class="fw-bold d-flex align-items-center w-100 py-1" style="letter-spacing: 5px;">
-            <a href="index.html">
-                <i class="fa-solid fa-cross fa-5x text-primary"></i>
+<div class="position-absolute w-100" style="top: 0; z-index: 5; background-color: rgba(365, 365, 365, 0);">
+    <nav class="container navbar navbar-expand-lg text-center   pt-5" id="mainNav">
+        <div class="fw-bold d-flex align-items-center w-100" style="letter-spacing: 5px;">
+            <a class='btn btn-outline-dark mr-2 px-sm-2'
+                style="white-space: nowrap; font-size: 0.8rem; font-weight: 700;"
+                onclick="$('[data-cn], [data-eng]').toggle(); ">
+                <i class="fa-solid fa-language"></i><span data-eng>中文</span><span data-cn>English</span>
             </a>
-            <span style="width: 300px; line-height: 1;" class="font-weight-bold">
+            <a href="index.html" class="ml-3">
+                <i class="fa-solid fa-cross fa-3x text-primary"></i>
+            </a>
+            <h1 style="max-width: 50%; line-height: 1;" class="font-weight-bold">
                 <span data-eng>
                     Windsor Full Gospel Mission Church <br>
                 </span>
                 <span data-cn>
                     温莎纯福音教会
                 </span>
-            </span>
-            <a class='btn btn-outline-primary ml-2 px-sm-3'
-                style="white-space: nowrap; font-size: 0.8rem; font-weight: 700;"
-                onclick="$('[data-cn], [data-eng]').toggle(); ">
-                <i class="fa-solid fa-language"></i><span data-eng>中文</span><span data-cn>English</span>
-            </a>
+            </h1>
+
         </div>
         <div class="py-2">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
@@ -37,15 +38,15 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">
-                        <i class="fa-solid fa-home"></i>
+                    <a class="nav-link text-nowrap" href="index.html">
+                        <i class="fa-solid fa-home text-secondary"></i>
                         <span data-eng>Home</span>
                         <span data-cn>家</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">
-                        <i class="fa-solid fa-camera"></i>
+                    <a class="nav-link text-nowrap" href="gallery.html">
+                        <i class="fa-solid fa-camera text-secondary"></i>
                         <span data-eng>Gallery</span>
                         <span data-cn>画廊</span></a>
                 </li>
